@@ -5,8 +5,8 @@ import time
 import smtplib
 
 def sendEmail():
-  username = "jasebell@gmail.com"
-  password = "goog390uuweb"
+  username = "xxxxxx"
+  password = "xxxxxx"
   FROM = "jasebell@gmail.com"
   TO = ["jasebell@gmail.com"]
   SUBJECT = "Testing sending using gmail"
