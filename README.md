@@ -14,6 +14,8 @@ And you'll also need some wires to connect it all together. To see what goes whe
 
 This Python script detects motion from the PIR and sends an SMS text message via the TextLocal service (in the UK) using their HTTP based API. 
 
-## Coming Soon….
-Motion triggering to send an email via a GMail account. 
+## motion2gmail.py
+
+Based on the same concept as the SMS motion detection this will send an email to your Gmail account.  You need to set the username, password in the sendEmail() method. Also be careful not to send too many emails out from your Pi, you don't want to upset Google. 
+
  
